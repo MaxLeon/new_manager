@@ -1,0 +1,19 @@
+{
+    "name": "root/news",
+    "authors": [
+        {
+            "name": "Maximo De Leon",
+            "email": "maximo@mctekk.com"
+        }
+    ],
+    "require": {},
+	"require-dev": {
+        "squizlabs/php_codesniffer": "2.*"
+    },
+    "autoload": {
+
+    "psr-4": {
+        "News\\": "src/"
+    		}
+	}
+}
